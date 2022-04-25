@@ -1,0 +1,19 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+}
+.navLogo
+{
+    height: 2.3rem;
+    width: 8.2rem;
+}
