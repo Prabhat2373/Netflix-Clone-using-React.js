@@ -11,7 +11,8 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-blend-mode: darken;
+    background-blend-mode: darken;    
+    border-bottom: 8px solid #222;
 }
 .img-container 
 {
@@ -98,6 +99,11 @@
 #get-started
 {
     /* padding: 5.5px 1em; */
+
+    background-color: #e50914;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+
     width: 232px;
     margin: 0.5em 0.5em 0.5em 0;
     display: flex;

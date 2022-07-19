@@ -7,13 +7,54 @@
 {
     display: flex;
     justify-content: space-between;
-    background: none;
+    background: #00000061;
     position: absolute;
-    width: 100%;
+    width: 90%;
     z-index: 99999;
+    right: 70px;
+    height: 80px;
+    box-shadow: 1px 20px 20px 0px #0000006b;
+    align-content: center;
+    align-items: center;
 }
 .navLogo
 {
-    height: 2.3rem;
-    width: 8.2rem;
+    width: 25%;
+}
+.optContainer
+{
+    display: flex;
+    gap: 20%;
+
+}
+#selectLang 
+{
+    padding: 6px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #00000061;
+    
+}
+#selectLang::before
+{
+    content: "\e896";
+    position: absolute;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    left: 0;
+     z-index: 111;
+}
+
+.sign-in 
+{
+    padding: 7px;
+    width: 70px;
+    background: #e50914;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
 }

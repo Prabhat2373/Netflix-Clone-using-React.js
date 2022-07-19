@@ -1,5 +1,6 @@
 import React from 'react'
 import "./../Navbar.css"
+import LangBtn from './LangBtn'
 
 export default function Navbar(props) {   
   return (
@@ -10,10 +11,7 @@ export default function Navbar(props) {
             </div>
             <div className="optContainer">
                 <div className="selectCont">
-                    <select name="selectLang" id="selectLang" >
-                        <option selected value="/eng/">English</option>
-                        <option value="/hi-in">Hindi</option>
-                    </select>
+                    <LangBtn/>
                 </div> 
                 <div className="sign-in-cont">
                     <button className="sign-in" id="signin">
@@ -25,4 +23,3 @@ export default function Navbar(props) {
     </>
   )
 }
-
